@@ -1,0 +1,24 @@
+@import '@/scss/helpers/_helpers.scss';
+
+.btn {
+  font-size: 20px;
+  color: $color_black;
+}
+
+.active {
+  color: #fff;
+}
+
+.bg {
+  width: 600px;
+  height: 496px;
+  background: url('https://webstatic.0am08m.com/assets/v4_home/image-slotgame@2x.png.webp');
+  background-size: 100% 100%;
+}
+
+.bg2 {
+  width: 600px;
+  height: 496px;
+  background: url('https://webstatic.0am08m.com/assets/v4_home/image-slotgame@2x.png');
+  background-size: 100% 100%;
+}
