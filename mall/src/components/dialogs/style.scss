@@ -1,9 +1,0 @@
-@import '@/scss/helpers/_helpers.scss';
-
-
-.close {
-  width: 10px;
-  height: 10px;
-  background-image: url(network($user + 'close'));
-  background-size: 100% 100%;
-}

@@ -1,9 +1,0 @@
-.vs/
-node_modules/
-dist/
-src/**/*.css.d.ts
-.yarn.lock
-.history/
-.idea/
-!build/postcss.config.js
-build/*.js
