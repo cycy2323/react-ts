@@ -1,0 +1,142 @@
+@import '@/scss/helpers/_helpers.scss';
+
+
+.ctn {
+  width: 100%;
+  height: 321px;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(network($home + 'footer-bg'));
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.main {
+  width: 1400px;
+  margin: 0 auto;
+
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    line-height: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+.logo {
+  width: 178px;
+  margin: 70px 91px 0 0;
+  float: left;
+}
+
+.ultabctn {
+  padding: 70px 0 0 0;
+  float: left;
+  display: flex;
+}
+
+.zhibo,
+.zhibo2 {
+  margin: 0 102px 0 0;
+
+  li {
+    font-family: PingFangSC;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 18px 0;
+    cursor: pointer;
+
+    &:first-child {
+      font-size: 20px;
+      color: #ffffff;
+      margin: 0 0 22px 0;
+      text-align: center;
+    }
+
+    &.yuc {
+      text-align: left;
+    }
+  }
+
+}
+
+.zhibo2 {
+  margin: 0;
+}
+
+.codectn {
+  float: right;
+  display: flex;
+  margin: 58px 0 0 0;
+}
+
+.codeleft {
+  width: 137px;
+  padding: 12px 0 0 0;
+  margin: 0 46px 0 0;
+}
+
+.xiazai {
+  font-family: PingFangSC;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+.phone {
+
+  li {
+    display: flex;
+    line-height: 1;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0 0 27px 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  .iphoneicon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(network($home + 'ios-icon'));
+    background-size: 100% 100%;
+    margin: 0 7px 0 0;
+  }
+
+  .androidicon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(network($home + 'android-icon'));
+    background-size: 100% 100%;
+    margin: 0 7px 0 0;
+  }
+}
+
+.coderight {
+  width: 155px;
+  height: 155px;
+  background-image: url(network($home + 'code-bg'));
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codecc {
+  width: 131px;
+  height: 131px;
+  background-image: url(network($home + 'code'));
+  background-size: 100% 100%;
+}

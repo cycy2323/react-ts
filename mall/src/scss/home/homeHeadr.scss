@@ -1,0 +1,106 @@
+@import '@/scss/helpers/_helpers.scss';
+
+.homeheadr {
+  width: 100%;
+  height: 735px;
+  margin: 0;
+  padding: 69px 0 0 0;
+  background-image: url(network($home + 'banner-bg'));
+  box-sizing: border-box;
+}
+
+// 直播
+.homeplay {
+  width: 1414px;
+  height: 720px;
+  margin: 0 auto;
+  display: flex;
+
+  .playleft {
+    width: 1197px;
+    height: 718px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #222222;
+    overflow: hidden;
+  }
+}
+
+
+
+.playright {
+  width: 218px;
+  height: 718px;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 20px 20px 0;
+  box-sizing: border-box;
+  padding: 9px 10px 0 12px;
+
+}
+
+.playtab {
+  li {
+    width: 196px;
+    height: 112px;
+    border-radius: 5px;
+    margin: 0 0 6px 0;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    // transition: all 0.6s;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: border .15s;
+
+    img {
+      display: block;
+      width: 192px;
+      height: 108px;
+      border-radius: 5px;
+    }
+
+    &:hover {
+      border: 2px solid #2883ff;
+
+      // transform: scale(1.05);
+      &:after {
+        position: absolute;
+        top: 50%;
+        left: -16px;
+        transform: translateY(-50%);
+        display: inline-block;
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: solid 8px transparent;
+        border-left: solid 8px transparent;
+        border-right: solid 8px#2883ff;
+        border-bottom: solid 8px transparent;
+      }
+    }
+
+    &.active {
+      border: 2px solid #2883ff;
+
+      &:after {
+        position: absolute;
+        top: 50%;
+        left: -16px;
+        transform: translateY(-50%);
+        display: inline-block;
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: solid 8px transparent;
+        border-left: solid 8px transparent;
+        border-right: solid 8px#2883ff;
+        border-bottom: solid 8px transparent;
+      }
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+}

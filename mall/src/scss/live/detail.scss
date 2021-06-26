@@ -1,0 +1,398 @@
+@import '@/scss/helpers/_helpers.scss';
+
+
+.detamain {
+  width: 100%;
+  // padding: 58px 0 0 0;
+  // background-color: #f9fbff;
+}
+
+.right {
+  margin: 0;
+  padding: 16px 0 0 0px;
+  min-height: 1200px;
+  // background-image: url(network($room + 'room-bg'));
+  // background-size: 100% 100%;
+}
+
+.roomFlex {
+  max-width: 1455px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.topbj {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1455px;
+  min-width: 1200px;
+  height: 67px;
+  border-radius: 6px;
+  background-color: #161731;
+  box-sizing: border-box;
+  padding: 0 167px;
+}
+
+.lefttit {
+  display: flex;
+}
+
+.leftimg {
+  width: 172px;
+  height: 67px;
+  background-image: url(network($room + 'banner-left'));
+  background-size: 100% 100%;
+  margin: 0 78px 0 0;
+}
+
+.leftimglogo1 {
+  height: 52px;
+  margin: 9px 0 0 86px;
+}
+
+.lefttext {
+  height: 67px;
+  line-height: 67px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: PingFangSC;
+  display: flex;
+  align-items: center;
+
+  .zoo {
+    display: inline-block;
+    font-family: adineuePROCond;
+    font-size: 41px;
+    margin: 0 0 0 12px;
+  }
+}
+
+.zoo2 {
+  display: inline-block;
+  font-family: adineuePROCond;
+  font-size: 41px;
+  margin: 0 12px 0 0;
+}
+
+.leftcent {
+  width: 92px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  color: #ffffff;
+  padding: 8px 0 0 0;
+}
+
+.rightimg {
+  width: 172px;
+  height: 67px;
+  background-image: url(network($room + 'banner-right'));
+  background-size: 100% 100%;
+  margin: 0 0 0 82px;
+}
+
+.rightimglogo1 {
+  height: 49px;
+  margin: 10px 0 0 44px;
+}
+
+.dateing {
+  margin: 4px 0;
+}
+
+
+// 直播区
+.ctn {
+  max-width: 1455px;
+  min-width: 1200px;
+  // height: 771px;
+  margin: 23px 0 0 0;
+  position: relative;
+}
+
+.roomleft {
+  margin-right: 330px;
+  position: relative;
+
+}
+
+.roomtit {
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 19px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+.guanzhu {
+  width: 60px;
+  height: 31px;
+  background-image: url(network($room + 'btn-bg'));
+  background-size: 100% 100%;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 31px;
+  cursor: pointer;
+}
+
+.iconctn {
+  display: flex;
+}
+
+.icontu {
+  width: 55px;
+  height: 55px;
+  background-image: url(network($room + 'btn-bg'));
+  background-size: 100% 100%;
+  border-radius: 50%;
+  margin: 0 9px 0 0;
+
+}
+
+.lqao {
+  font-family: PingFangSC;
+  font-size: 18px;
+  color: #464646;
+  margin: 0 0 8px 0;
+}
+
+.dds {
+  font-family: PingFangSC;
+  font-size: 20px;
+  color: #757575;
+}
+
+.ddname {
+  color: #464646;
+  margin: 0 12px 0 0;
+}
+
+.inconhome {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  background-image: url(network($room + 'homeicon'));
+  background-size: 100% 100%;
+  margin: 0 3px 0 0;
+}
+
+.inconhou {
+  display: inline-block;
+  width: 14.7px;
+  height: 17.4px;
+  background-image: url(network($home + 'heat'));
+  background-size: 100% 100%;
+  margin: 0 3.3px 0 9px;
+}
+
+.playtv {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  clear: both;
+  background: #343434;
+  padding-top: 61.8%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+.videoMask {
+  width: 100%;
+  height: 40px;
+  padding: 8px 40px;
+  background: rgba(0, 0, 0, 0.83);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playingleft {
+  width: 71px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playBtn {
+  width: 21px;
+  height: 23px;
+  background-image: url(network($room + 'play'));
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.pause {
+  width: 14px;
+  height: 21px;
+  background-image: url(network($room + 'pause'));
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.playRefre {
+  width: 22px;
+  height: 18px;
+  background-image: url(network($room + 'refresh'));
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.playingright {
+  height: 100%;
+  display: flex;
+}
+
+.chaoqing {
+  width: 56px;
+  height: 22px;
+  margin: 0 0 0 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+
+  .chaoqingp2 {
+    width: 56px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: #444444;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  .chaoqingtext {
+    display: inline-block;
+    font-size: 13px;
+    background-image: linear-gradient(to right, #83c8ff, #3977fe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.dpsetting {
+  width: 24px;
+  height: 24px;
+  margin: 0 33px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dplayfull {
+  width: 21px;
+  height: 21px;
+  background-image: url(network($room + 'full'));
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.chaobox {
+  width: 133px;
+  height: 152px;
+  position: absolute;
+  left: 50%;
+  top: -166px;
+  transform: translate(-50%, 0) scale(0);
+  border-radius: 4px;
+  background-color: #444444;
+  transition: all .3s ease-in-out;
+  z-index: 2;
+  font-size: 12px;
+  padding: 19px 23px 0 10px;
+  box-sizing: border-box;
+  color: #6b6b6b;
+  visibility: hidden;
+
+  &.ope {
+    transform: translate(-50%, 0) scale(1);
+    visibility: visible;
+  }
+
+  .sanicon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid;
+    border-color: #444444 transparent transparent;
+    border-bottom: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transform: translate(-50%, 0);
+    z-index: 100;
+  }
+}
+
+.customer {
+  height: 100px;
+  display: flex;
+  font-size: 12px;
+
+  span {
+    width: 28px;
+    line-height: 17px;
+    text-align: left;
+    margin: 0 17px 0 0;
+  }
+}
+
+.custItem {
+  width: 0;
+  flex: 1;
+
+  li {
+    margin-bottom: 10px;
+    line-height: 17px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: left;
+
+    &:hover {
+      color: #dfa868;
+    }
+  }
+}
+
+.lineSelect {
+  display: flex;
+  margin: 0 0 15px 0;
+
+  span {
+    display: inline-block;
+    width: 28px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 10px 0 0;
+  }
+}
+
+.lineSelerig {
+  width: 62px;
+  height: 28px;
+  position: relative;
+  // border-radius: 2px;
+  // border: solid 0.5px #8b8b8a;
+  // background-color: #292929;
+  box-sizing: border-box;
+}
